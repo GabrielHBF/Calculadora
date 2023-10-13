@@ -1,0 +1,132 @@
+body {
+    background: grey;
+}
+
+main {
+    text-align: center;
+    margin-top: 10%;
+    
+        }
+
+#calculadora {
+    width: 300px;
+    text-align: left;
+    background: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 20px 30px 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px darkblue;
+    
+}
+
+.resutado {
+    margin: 20px 0 20px 7.5px;
+    font-size: 32px;
+    display: inline-block;
+    box-shadow: 0px 0px 5px white;
+    text-align: right;
+    color: black;
+    padding: 5px;
+    width: 285px;
+}
+::placeholder {
+    color: black;
+}
+.btnC {
+    width: 154px;
+ font-size: 32px;
+ padding: 5px;
+ display: inline-block;
+ }
+
+.btnn {
+    width: 75px;
+    font-size: 32px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.btnX {
+    width: 75px;
+    font-size: 32px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.btns {
+    font-size: 32px;
+    width: 75px;
+    padding: 5px;
+    display: inline-block;
+}
+#btn1 {
+    padding: 5px;
+    display: inline-block;
+    width: 235px;
+}
+.btn2 {
+    padding: 5px;
+    display: inline-block;
+    width: 235px;
+}
+#btn3 {
+    width: 235px;
+    display: inline-block;
+    padding: 5px;
+}
+.btnsss {
+    font-size: 32px;
+    width: 75px;
+    padding: 5px;
+    display: inline-block;
+    margin: 10px 0 10px 0;
+}
+
+
+#btnAcao1 {
+ display:flex;
+ float: right;
+ width: 50px;
+ height: 60px;
+}
+
+.btnacao {
+    font-size: 32px;
+    width: 60px;
+    display: inline-block;
+    margin: 5px 20px 5px 0;
+     padding: 5px;
+}
+
+#ajuste {
+    display: block;
+    margin: 0 30px 0 0;
+}
+
+.btnIgual {
+    font-size: 32px;
+    width: 60px;
+    display: inline-block;
+    margin: 5px 20px 5px 0;
+     padding: 5px;
+     height: 112px;
+}
+
+.btn0 {
+    font-size: 32px;
+    width: 154px;
+    display: inline-block;
+     padding: 5px;
+}
+
+button {
+    box-shadow: 0px 0px 2.5px white;
+    
+    border-radius: 10px;
+    
+}
+
+button:hover {
+    background-color: darkgray;
+    transition: 0.5ms;
+}
